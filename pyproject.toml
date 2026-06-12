@@ -1,0 +1,18 @@
+[project]
+name = "ttrainmethods"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "scipy>=1.17.1",
+    "tensorflow>=2.21.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "pytest>=9.0.3",
+    "ruff>=0.15.17",
+]
